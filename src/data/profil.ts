@@ -60,11 +60,11 @@ export const profil = {
     },
     {
       baslik: "TEKNOFEST Otonom Araç",
-      semboller: ["LiDAR", "Arduino", "Python", "LDR & LED", "L298N", "Otonom Sürüş"],
+      semboller: ["LiDAR", "Arduino", "Python", "Otonom Sürüş"],
       kategori: "Otonom Sistemler & IoT",
       aciklama:
-        "TEKNOFEST yarışması için geliştirilen otonom araç. LiDAR ile çevresini algılar; Arduino ile hat boyunca ileri geri giderek LDR sensörüyle ışık taraması yapar ve en aydınlık ve en karanlık noktaları otonom olarak bulur.",
-      etiketler: ["LiDAR", "Arduino", "Python", "LDR", "L298N"],
+        "TEKNOFEST yarışması için ekip olarak geliştirdiğimiz otonom araç. Çevresini LiDAR sensörüyle lazer tabanlı tarayarak engelleri ve mesafeleri algılar, bu verilere göre otonom sürüş kararları verir.",
+      etiketler: ["LiDAR", "Arduino", "Python"],
       link: "",
       github: "https://github.com/Beyzanrkya/teknofest-otonom-arac",
     },
@@ -73,10 +73,10 @@ export const profil = {
       semboller: ["Arduino", "HC-SR04", "L298N", "LDR & LED", "Otonom Sürüş"],
       kategori: "Otonom Sistemler & IoT",
       aciklama:
-        "Üniversite yarışmaları ve gösterimler için geliştirilmiş otonom robot araç. Ultrasonik sensörle engellerden kaçar, LDR sensörleriyle ışığa göre LED aydınlatmasını yönetir.",
+        "Üniversite yarışmaları ve gösterimler için geliştirilmiş otonom robot araç. Hat boyunca ileri geri giderek LDR sensörüyle ışık taraması yapar, en aydınlık ve en karanlık noktaları bulup oraya gider; HC-SR04 ultrasonik sensörle mesafe ölçer.",
       etiketler: ["Arduino Uno", "HC-SR04", "L298N", "LDR"],
       link: "",
-      github: "",
+      github: "https://github.com/Beyzanrkya/otonom-robot-araba",
     },
     {
       baslik: "MBrandev (Randevual)",
