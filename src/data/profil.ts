@@ -93,10 +93,10 @@ export const profil = {
       semboller: ["Open-Meteo", "Gemini", "Yeşil Enerji", "Mobil"],
       kategori: "Sürdürülebilir Teknolojiler & Yeşil Enerji",
       aciklama:
-        "Climathon / COP31 projesi. Yenilenebilir enerjinin en yoğun olduğu yeşil elektrik saatlerini tahmin edip ev aletlerinin kullanımı için öneriler sunan yapay zeka destekli mobil uygulama.",
-      etiketler: ["Open-Meteo API", "Gemini API", "Mobil"],
-      link: "",
-      github: "",
+        "Climathon / COP31 projesi. Seçilen şehrin ertesi gün hava tahmininden her saatin yenilenebilir enerji payını hesaplar; çamaşır, bulaşık ve elektrikli araç şarjı gibi işler için en temiz saati önerir, önlenen emisyonu gösterir ve Gemini ile sade Türkçe açıklar.",
+      etiketler: ["Open-Meteo API", "Gemini API", "JavaScript", "Google AI Studio"],
+      link: "https://beyzanrkya.github.io/yesil-saat/",
+      github: "https://github.com/Beyzanrkya/yesil-saat",
     },
   ],
 
