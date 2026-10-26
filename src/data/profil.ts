@@ -7,7 +7,7 @@ export const profil = {
   slogan: "Yapay zeka, IoT ve full-stack ile fikirleri hayata geçiriyorum.",
   konum: "Isparta, Türkiye",
   okul: "Süleyman Demirel Üniversitesi",
-  eposta: "ornek@eposta.com",
+  eposta: "kaya.peyza000@gmail.com",
   cvLinki: "", // örn: "/cv.pdf" (dosyayı public klasörüne koy)
 
   hakkimda: [
@@ -104,7 +104,6 @@ export const profil = {
 
   sosyal: [
     { ad: "GitHub", url: "https://github.com/Beyzanrkya" },
-    { ad: "LinkedIn", url: "https://linkedin.com/in/" },
-    { ad: "Instagram", url: "https://instagram.com/" },
+    { ad: "LinkedIn", url: "https://www.linkedin.com/in/beyza-nur-kaya-795b3629a" },
   ],
 };
