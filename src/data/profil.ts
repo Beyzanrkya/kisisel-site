@@ -41,11 +41,12 @@ export const profil = {
       baslik: "Sensör Verileriyle Kurutma Bitiş Zamanı Tahmini",
       semboller: ["Python", "Diferansiyel Denklem", "Sıcaklık", "Nem", "Ağırlık", "Zaman Serisi", "IoT"],
       kategori: "Endüstriyel Veri Analitiği & Fiziksel Modelleme",
+      durum: "Devam Ediyor",
       aciklama:
         "Kurutma sırasında sıcaklık, nem ve tepsi ağırlığını anlık izleyip kuruma eğrisini diferansiyel denklemlerle ilk saatlerin verisine uyduran akıllı tahmin sistemi. Durdurma kararını otonom verir, tahmin hatasını dakika bazında raporlar. İlk testler elma dilimleriyle yapılıyor.",
       etiketler: ["Python", "Diferansiyel Denklemler", "Sensör Analitiği", "Zaman Serisi", "IoT"],
       link: "",
-      github: "",
+      github: "https://github.com/Beyzanrkya/kurutma-bitis-zamani-tahmini",
     },
     {
       baslik: "SQL Injection Saldırı Tespit Sistemi",

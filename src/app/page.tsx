@@ -139,6 +139,12 @@ export default function Home() {
                     ))}
                   </div>
                   <div className="flex flex-1 flex-col p-6">
+                    {p.durum && (
+                      <span className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-full border border-amber-400/40 bg-amber-400/15 px-3 py-1 text-xs font-semibold text-amber-300">
+                        <span className="h-2 w-2 animate-pulse rounded-full bg-amber-400" />
+                        {p.durum}
+                      </span>
+                    )}
                     <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-pink-400">
                       {p.kategori}
                     </p>
