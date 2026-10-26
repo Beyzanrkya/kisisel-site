@@ -59,13 +59,13 @@ export const profil = {
     },
     {
       baslik: "TEKNOFEST Otonom Araç",
-      semboller: ["LiDAR", "Arduino", "Python", "Otonom Sürüş"],
+      semboller: ["LiDAR", "Arduino", "Python", "LDR & LED", "L298N", "Otonom Sürüş"],
       kategori: "Otonom Sistemler & IoT",
       aciklama:
-        "TEKNOFEST yarışması için geliştirilen, LiDAR ile çevresini algılayan otonom araç projesi.",
-      etiketler: ["LiDAR", "Arduino", "Python"],
+        "TEKNOFEST yarışması için geliştirilen otonom araç. LiDAR ile çevresini algılar; Arduino ile hat boyunca ileri geri giderek LDR sensörüyle ışık taraması yapar ve en aydınlık ve en karanlık noktaları otonom olarak bulur.",
+      etiketler: ["LiDAR", "Arduino", "Python", "LDR", "L298N"],
       link: "",
-      github: "",
+      github: "https://github.com/Beyzanrkya/teknofest-otonom-arac",
     },
     {
       baslik: "4 Tekerlekli Otonom Robot Araba",
