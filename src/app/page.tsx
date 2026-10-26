@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Reveal from "@/components/Reveal";
+import Sembol from "@/components/Sembol";
 import TypingText from "@/components/TypingText";
 import { profil } from "@/data/profil";
 
@@ -131,11 +132,11 @@ export default function Home() {
               <Reveal key={p.baslik} delay={i * 120}>
                 <article className="glass gradient-border group flex h-full flex-col overflow-hidden rounded-3xl transition-transform duration-300 hover:-translate-y-2">
                   <div
-                    className={`flex h-40 items-center justify-center bg-gradient-to-br ${kartRenkleri[i % 3]}`}
+                    className={`flex min-h-40 flex-wrap content-center items-start justify-center gap-x-1 gap-y-3 bg-gradient-to-br px-4 py-5 ${kartRenkleri[i % 3]}`}
                   >
-                    <span className="font-display text-5xl font-bold text-white/80 transition-transform duration-500 group-hover:scale-125 group-hover:rotate-3">
-                      {p.baslik.charAt(0)}
-                    </span>
+                    {p.semboller.map((s) => (
+                      <Sembol key={s} ad={s} />
+                    ))}
                   </div>
                   <div className="flex flex-1 flex-col p-6">
                     <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-pink-400">

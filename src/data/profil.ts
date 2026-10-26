@@ -39,6 +39,7 @@ export const profil = {
   projeler: [
     {
       baslik: "Sensör Verileriyle Kurutma Bitiş Zamanı Tahmini",
+      semboller: ["Python", "Diferansiyel Denklem", "Sıcaklık", "Nem", "Ağırlık", "Zaman Serisi", "IoT"],
       kategori: "Endüstriyel Veri Analitiği & Fiziksel Modelleme",
       aciklama:
         "Kurutma sırasında sıcaklık, nem ve tepsi ağırlığını anlık izleyip kuruma eğrisini diferansiyel denklemlerle ilk saatlerin verisine uyduran akıllı tahmin sistemi. Durdurma kararını otonom verir, tahmin hatasını dakika bazında raporlar. İlk testler elma dilimleriyle yapılıyor.",
@@ -48,6 +49,7 @@ export const profil = {
     },
     {
       baslik: "SQL Injection Saldırı Tespit Sistemi",
+      semboller: ["Python", "scikit-learn", "Random Forest", "Streamlit", "Docker", "Saldırı Tespiti"],
       kategori: "Yapay Zeka & Siber Güvenlik",
       aciklama:
         "Yapay zeka ve graf teorisiyle SQL enjeksiyonu saldırılarını tespit eden güvenlik projesi. TF-IDF + Logistic Regression, AST tabanlı Random Forest ve Isolation Forest modellerini birleştirir.",
@@ -57,6 +59,7 @@ export const profil = {
     },
     {
       baslik: "Kamera Tabanlı Şiddet Tespit Sistemi",
+      semboller: ["Kamera", "Bilgisayarlı Görü", "Yapay Zeka"],
       kategori: "Yapay Zeka & Siber Güvenlik",
       aciklama:
         "TÜBİTAK 2209-B projesi. Çocuk ve yaşlı bakımı alanlarında kamera görüntüleri üzerinden otomatik şiddet tespiti yapan bilgisayarlı görü araştırması ve uygulaması.",
@@ -66,6 +69,7 @@ export const profil = {
     },
     {
       baslik: "TEKNOFEST Otonom Araç",
+      semboller: ["LiDAR", "Arduino", "Python", "Otonom Sürüş"],
       kategori: "Otonom Sistemler & IoT",
       aciklama:
         "TEKNOFEST yarışması için geliştirilen, LiDAR ile çevresini algılayan otonom araç projesi.",
@@ -75,6 +79,7 @@ export const profil = {
     },
     {
       baslik: "4 Tekerlekli Otonom Robot Araba",
+      semboller: ["Arduino", "HC-SR04", "L298N", "LDR & LED", "Otonom Sürüş"],
       kategori: "Otonom Sistemler & IoT",
       aciklama:
         "Üniversite yarışmaları ve gösterimler için geliştirilmiş otonom robot araç. Ultrasonik sensörle engellerden kaçar, LDR sensörleriyle ışığa göre LED aydınlatmasını yönetir.",
@@ -84,6 +89,7 @@ export const profil = {
     },
     {
       baslik: "MBrandev (Randevual)",
+      semboller: ["React Native", "Expo", "Node.js", "Express", "MongoDB", "JWT", "Redis", "Docker", "Vercel"],
       kategori: "Full-Stack Web & Mobil",
       aciklama:
         "Bireylerin hızlıca randevu almasını, işletmelerin ise hizmetlerini ve müsaitliklerini dijital ortamda yönetmesini sağlayan full-stack randevu platformu.",
@@ -93,6 +99,7 @@ export const profil = {
     },
     {
       baslik: "Yeşil Saat",
+      semboller: ["Open-Meteo", "Gemini", "Yeşil Enerji", "Mobil"],
       kategori: "Sürdürülebilir Teknolojiler & Yeşil Enerji",
       aciklama:
         "Climathon / COP31 projesi. Yenilenebilir enerjinin en yoğun olduğu yeşil elektrik saatlerini tahmin edip ev aletlerinin kullanımı için öneriler sunan yapay zeka destekli mobil uygulama.",
