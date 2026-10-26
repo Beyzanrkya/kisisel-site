@@ -44,8 +44,6 @@ const emojiler: Record<string, string> = {
   IoT: "📡",
   "Random Forest": "🌳",
   "Saldırı Tespiti": "🛡️",
-  Kamera: "📹",
-  "Bilgisayarlı Görü": "👁️",
   "Yapay Zeka": "🧠",
   LiDAR: "📡",
   "Otonom Sürüş": "🚗",

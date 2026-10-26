@@ -12,11 +12,11 @@ export const profil = {
 
   hakkimda: [
     "Merhaba! Ben Beyzanur. Süleyman Demirel Üniversitesi'nde öğrenciyim ve yazılım geliştirmeye tutkuyla bağlıyım.",
-    "Yapay zeka ve siber güvenlikten otonom sistemlere, sensör verisiyle fiziksel modellemeden full-stack mobil uygulamalara kadar geniş bir alanda projeler geliştiriyorum. TEKNOFEST, TÜBİTAK 2209-B ve Climathon gibi yarışma ve programlarda yer alıyorum.",
+    "Yapay zeka ve siber güvenlikten otonom sistemlere, sensör verisiyle fiziksel modellemeden full-stack mobil uygulamalara kadar geniş bir alanda projeler geliştiriyorum. TEKNOFEST ve Climathon gibi yarışma ve programlarda yer alıyorum.",
   ],
 
   istatistikler: [
-    { deger: "7+", etiket: "Proje" },
+    { deger: "6+", etiket: "Proje" },
     { deger: "5", etiket: "Uzmanlık alanı" },
     { deger: "∞", etiket: "Merak" },
   ],
@@ -56,16 +56,6 @@ export const profil = {
       etiketler: ["Python", "scikit-learn", "Streamlit", "Docker"],
       link: "https://beyzanur-sql-injection.streamlit.app/",
       github: "https://github.com/Beyzanrkya/SQL_injection",
-    },
-    {
-      baslik: "Kamera Tabanlı Şiddet Tespit Sistemi",
-      semboller: ["Kamera", "Bilgisayarlı Görü", "Yapay Zeka"],
-      kategori: "Yapay Zeka & Siber Güvenlik",
-      aciklama:
-        "TÜBİTAK 2209-B projesi. Çocuk ve yaşlı bakımı alanlarında kamera görüntüleri üzerinden otomatik şiddet tespiti yapan bilgisayarlı görü araştırması ve uygulaması.",
-      etiketler: ["Bilgisayarlı Görü", "Derin Öğrenme", "TÜBİTAK 2209-B"],
-      link: "",
-      github: "",
     },
     {
       baslik: "TEKNOFEST Otonom Araç",
