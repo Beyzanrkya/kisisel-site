@@ -54,7 +54,7 @@ export const profil = {
       aciklama:
         "Yapay zeka ve graf teorisiyle SQL enjeksiyonu saldırılarını tespit eden güvenlik projesi. TF-IDF + Logistic Regression, AST tabanlı Random Forest ve Isolation Forest modellerini birleştirir.",
       etiketler: ["Python", "scikit-learn", "Streamlit", "Docker"],
-      link: "https://beyzanur-sql-injection.streamlit.app/",
+      link: "",
       github: "https://github.com/Beyzanrkya/SQL_injection",
     },
     {
@@ -84,7 +84,7 @@ export const profil = {
       aciklama:
         "Bireylerin hızlıca randevu almasını, işletmelerin ise hizmetlerini ve müsaitliklerini dijital ortamda yönetmesini sağlayan full-stack randevu platformu.",
       etiketler: ["React Native", "Node.js", "Express", "MongoDB", "JWT", "Docker", "Redis"],
-      link: "https://randevual-beta.vercel.app",
+      link: "",
       github: "https://github.com/Beyzanrkya/randevual",
     },
     {
